@@ -1,0 +1,306 @@
+{
+	"manufacturer": "Zooz",
+	"manufacturerId": "0x027a",
+	"label": "ZEN37 800LR",
+	"description": "800 Series Long Range Wall Remote",
+	"devices": [
+		{
+			"productType": "0x7000",
+			"productId": "0xf003"
+		}
+	],
+	"firmwareVersion": {
+		"min": "0.0",
+		"max": "255.255"
+	},
+	"associations": {
+		"1": {
+			"label": "Lifeline",
+			"maxNodes": 5,
+			"isLifeline": true
+		},
+		"2": {
+			"label": "Large button BASIC SET",
+			"maxNodes": 5
+		},
+		"3": {
+			"label": "Small button BASIC SET",
+			"maxNodes": 5
+		},
+		"4": {
+			"label": "Large button SWITCH_MULTILEVEL CHANGE",
+			"maxNodes": 5
+		},
+		"5": {
+			"label": "Small button SWITCH_MULTILEVEL CHANGE",
+			"maxNodes": 5
+		},
+		"6": {
+			"label": "Button 1 BASIC SET",
+			"maxNodes": 5
+		},
+		"7": {
+			"label": "Button 2 BASIC SET",
+			"maxNodes": 5
+		},
+		"8": {
+			"label": "Button 3 BASIC SET",
+			"maxNodes": 5
+		},
+		"9": {
+			"label": "Button 4 BASIC SET",
+			"maxNodes": 5
+		}
+	},
+	"paramInformation": [
+		{
+			"#": "1",
+			"label": "Level device reports low battery to hub",
+			"valueSize": 1,
+			"unit": "%",
+			"defaultValue": 5,
+			"minValue": 5,
+			"maxValue": 10,
+			"unsigned": true
+		},
+		{
+			"#": "2",
+			"label": "LED Color for Upper Button (Button 1)",
+			"valueSize": 1,
+			"minValue": 0,
+			"maxValue": 6,
+			"defaultValue": 0,
+			"unsigned": true,
+			"allowManualEntry": false,
+			"options": [
+				{
+					"label": "White",
+					"value": 0
+				},
+				{
+					"label": "Purple",
+					"value": 1
+				},
+				{
+					"label": "Orange",
+					"value": 2
+				},
+				{
+					"label": "Cyan",
+					"value": 3
+				},
+				{
+					"label": "Red",
+					"value": 4
+				},
+				{
+					"label": "Green",
+					"value": 5
+				},
+				{
+					"label": "Blue",
+					"value": 6
+				}
+			]
+		},
+		{
+			"#": "3",
+			"label": "LED Color for Middle Button (Button 2)",
+			"valueSize": 1,
+			"minValue": 0,
+			"maxValue": 6,
+			"unsigned": true,
+			"defaultValue": 0,
+			"allowManualEntry": false,
+			"options": [
+				{
+					"label": "White",
+					"value": 0
+				},
+				{
+					"label": "Purple",
+					"value": 1
+				},
+				{
+					"label": "Orange",
+					"value": 2
+				},
+				{
+					"label": "Cyan",
+					"value": 3
+				},
+				{
+					"label": "Red",
+					"value": 4
+				},
+				{
+					"label": "Green",
+					"value": 5
+				},
+				{
+					"label": "Blue",
+					"value": 6
+				}
+			]
+		},
+		{
+			"#": "4",
+			"label": "LED Color for Lower Left Button (Button 3)",
+			"valueSize": 1,
+			"minValue": 0,
+			"maxValue": 6,
+			"unsigned": true,
+			"defaultValue": 0,
+			"allowManualEntry": false,
+			"options": [
+				{
+					"label": "White",
+					"value": 0
+				},
+				{
+					"label": "Purple",
+					"value": 1
+				},
+				{
+					"label": "Orange",
+					"value": 2
+				},
+				{
+					"label": "Cyan",
+					"value": 3
+				},
+				{
+					"label": "Red",
+					"value": 4
+				},
+				{
+					"label": "Green",
+					"value": 5
+				},
+				{
+					"label": "Blue",
+					"value": 6
+				}
+			]
+		},
+		{
+			"#": "5",
+			"label": "LED Color for Lower Right Button (Button 4)",
+			"valueSize": 1,
+			"minValue": 0,
+			"maxValue": 6,
+			"unsigned": true,
+			"defaultValue": 0,
+			"allowManualEntry": false,
+			"options": [
+				{
+					"label": "White",
+					"value": 0
+				},
+				{
+					"label": "Purple",
+					"value": 1
+				},
+				{
+					"label": "Orange",
+					"value": 2
+				},
+				{
+					"label": "Cyan",
+					"value": 3
+				},
+				{
+					"label": "Red",
+					"value": 4
+				},
+				{
+					"label": "Green",
+					"value": 5
+				},
+				{
+					"label": "Blue",
+					"value": 6
+				}
+			]
+		},
+		{
+			"#": "6",
+			"label": "LED Indicator Brightness",
+			"valueSize": 1,
+			"minValue": 0,
+			"maxValue": 10,
+			"defaultValue": 5,
+			"unsigned": true,
+			"allowManualEntry": false,
+			"options": [
+				{
+					"label": "Off",
+					"value": 0
+				},
+				{
+					"label": "10%",
+					"value": 1
+				},
+				{
+					"label": "20%",
+					"value": 2
+				},
+				{
+					"label": "30%",
+					"value": 3
+				},
+				{
+					"label": "40%",
+					"value": 4
+				},
+				{
+					"label": "50%",
+					"value": 5
+				},
+				{
+					"label": "60%",
+					"value": 6
+				},
+				{
+					"label": "70%",
+					"value": 7
+				},
+				{
+					"label": "80%",
+					"value": 8
+				},
+				{
+					"label": "90%",
+					"value": 9
+				},
+				{
+					"label": "100%",
+					"value": 10
+				}
+			]
+		},
+		{
+			"#": "7",
+			"label": "Local Dimming Speed",
+			"description": "The time it takes to get from 0% to 100% brightness when pressing and holding the paddle.",
+			"valueSize": 1,
+			"unit": "seconds",
+			"minValue": 1,
+			"maxValue": 99,
+			"defaultValue": 5,
+			"unsigned": true
+		}
+	],
+	"compat": {
+		// The device sends Configuration CC info reports in 4-byte chunks, causing each query to block the network for roughly 1.5 seconds.
+		"skipConfigurationNameQuery": true,
+		"skipConfigurationInfoQuery": true
+	},
+	"metadata": {
+		"inclusion": "Put your Z-Wave hub into inclusion mode and click the top button (button 1) 6 times quickly. The LED indicator\nwill blink blue during the process and light up green once added successfully. It will light up red if failed",
+		"exclusion": "1. Bring the Remote Switch within direct range of your Z-Wave gateway (hub).\n2. Put the Z-Wave hub into exclusion mode (not sure how to do that? ask@getzooz.com).\n3. Click the middle button (button 2) 6 times very quickly\n4. Your hub will confirm exclusion and the device will disappear from your controller's device list",
+		"wakeup": "1. Bring the Remote Switch within direct range of your Z-Wave gateway (hub).\n2. Click the lower left button 6 times very quickly\n3. Your device's indicator light will remain on solid blue to indicate that the device is awake.",
+		"reset": "When your network’s primary controller is missing or otherwise inoperable, you may need to reset the device\nto factory settings manually. In order to complete the process, make sure the device is powered, the\nclick the bottom right small button 6 times quickly. The LED indicator will start blinking red,\n then immediately click the same button 6 more times. The LED\n indicator will stay red for 2 seconds.",
+		"manual": "https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-800-series-z-wave-long-range-wall-remote-zen37-800lr-manual.pdf"
+	}
+}
